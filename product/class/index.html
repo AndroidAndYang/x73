@@ -19,6 +19,8 @@
   <!--[if lt IE 9]><script src="https://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script><script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script><![endif]-->
  </head>
  <body>
+
+
   <header>
    <!-- Fixed navbar -->
    <nav class="navbar navbar-default navbar-fixed-top">
@@ -192,7 +194,7 @@
                         <div class="left_column">
 <ul class="left_nav_ul" id="firstpane">
 
-<li><a class="biglink" href="../../product/class/?115.html">产品分类一</a><!--span class="menu_head">+</span-->
+<li><a class="biglink" href="javascript::">产品分类一</a><!--span class="menu_head">+</span-->
 </li>
 <ul class="left_snav_ul menu_body">
 
@@ -203,6 +205,14 @@
 <li><a href="../../product/class/?128.html" target="_self">产品分类c</a></li>
 
 </ul>
+
+<script> 
+$(document).ready(function(){
+  $(".biglink").click(function(){
+    $(".left_snav_ul").slideToggle("slow");
+  });
+});
+</script>
 
 <li><a class="biglink" href="../../product/class/?74.html">产品分类二</a><!--span class="menu_head">+</span-->
 </li>
@@ -218,41 +228,10 @@
  
 </ul>
 </div>
-      <div class="left_news">
-      <h3 class="left_h3"><span>新闻中心</span></h3>
-      
-  <ul class="left_news">
-
-<li><a href="../../news/html/?431.html" title="如何解决光扩散PC注塑成型">如何解决光扩散PC注塑成型</a></li>
-
-<li><a href="../../news/html/?430.html" title="充电器外壳阻燃防火PC 充">充电器外壳阻燃防火PC 充</a></li>
-
-<li><a href="../../news/html/?429.html" title="如何解决导电PC注塑件熔接">如何解决导电PC注塑件熔接</a></li>
-
-<li><a href="../../news/html/?428.html" title="HTML5提供了一些新的元素">HTML5提供了一些新的元素</a></li>
-
-  </ul>
 
 </div>
-                        <div class="left_contact">
-      <h3 class="left_h3" style="margin-bottom:20px;"><span>联系我们</span></h3>
-      <p>
-	联系人：吴先生
-</p>
-<p>
-	手机：18926129998
-</p>
-<p>
-	电话：020-22043297
-</p>
-<p>
-	邮箱：510551@qq.com
-</p>
-<p>
-	地址： 广东省广州市天河区天平架沙太路沙太路
-</p>
-</div>
-                  </div>
+
+    </div>
 
             </div>
       </div>      <script src="../../Home/Tpl/default/Public/js/jquery.smoove.min.js"></script>
