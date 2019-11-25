@@ -81,44 +81,49 @@
                 <div class="right_head">
                     <h2><span>Product</span></h2>
                 </div>
-                <div class="product_con">
-                <img src="../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-(0).jpg">
-                <img src="../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-(1).jpg">
-                <img src="../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-(2).jpg">
-                <img src="../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-(3).jpg">
-                <img src="../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-(5).jpg">
+                <div class="product_con" id = "product_con">
+	
                 </div>
+				 <script>
+                    const pathNum = 15;
+                    const product_con = document.getElementById('product_con');
+                    for(let i = 1;i<=pathNum;i++) {
+                        let img = document.createElement('img');
+                        img.src = "../../img/img1/ES04 Hexagon glass jar/Factory-OEM-hexagon-glass-jar-with-lid-jam-jar-honey-jars-spice-jar-45ml-85ml-100ml-180ml-280ml-380ml-500ml-730ml-" + i + ".jpg";
+                        product_con.appendChild(img)
+                    }
+                </script>
             </div>
             <!-- left -->
             <div class="col-xs-12 col-sm-4 col-md-3">
                 <h3 class="left_h3"><span>Nav</span></h3>
                 <div class="left_column">
                     <ul class="left_nav_ul" id="firstpane">
-                        <li><a class="biglink" href="index.html">Glass jar</a>
+                        <li><a class="biglink" href="../index.html">Glass jar</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Masonjarandglasscup/index.html">Mason jar and glass cup</a>
+                        <li><a class="biglink" href="../../Masonjarandglasscup/index.html">Mason jar and glass cup</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Waterbottle/index.html">Water bottle</a>
+                        <li><a class="biglink" href="../../Waterbottle/index.html">Water bottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Milkbottle/index.html">Milk bottle</a>
+                        <li><a class="biglink" href="../../Milkbottle/index.html">Milk bottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Juicebottle/index.html">Juice bottle</a>
+                        <li><a class="biglink" href="../../Juicebottle/index.html">Juice bottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Puddingbottle/index.html">Pudding bottle</a>
+                        <li><a class="biglink" href="../../Puddingbottle/index.html">Pudding bottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Winebottle/index.html">Wine bottle</a>
+                        <li><a class="biglink" href="../../Winebottle/index.html">Wine bottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Buckledglassbottleandoliveoilbottle/index.html">Buckledglassbottleandoliveoilbottle</a>
+                        <li><a class="biglink" href="../../Buckledglassbottleandoliveoilbottle/index.html">Buckledglassbottleandoliveoilbottle</a>
                             <!--span class="menu_head">+</span-->
                         </li>
-                        <li><a class="biglink" href="../Glasscraftandothers/index.html">Glass craft and others</a>
+                        <li><a class="biglink" href="../../Glasscraftandothers/index.html">Glass craft and others</a>
                             <!--span class="menu_head">+</span-->
                         </li>
                     </ul>
