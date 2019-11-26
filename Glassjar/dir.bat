@@ -1,8 +1,0 @@
-MD ES12teaglassjarwithglasslids
-MD ES24caviarglassjar
-MD ES25polygonglassjar
-MD ES26roundglassjar
-MD ES27embossedglassjar
-MD ES35roundthreadglassjar
-MD ES66roundbigglassjar
-MD ES70Chilisauceglassjar
