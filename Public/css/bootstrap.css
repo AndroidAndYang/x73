@@ -1604,6 +1604,7 @@ pre code {
   margin-left: auto;
 }
 .row {
+  margin-top:30px; 
   margin-right: -15px;
   margin-left: -15px;
 }
@@ -6581,5 +6582,8 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.navbar-collapse .navbar-nav li{
+  font-size: 18px
 }
 /*# sourceMappingURL=bootstrap.css.map */
